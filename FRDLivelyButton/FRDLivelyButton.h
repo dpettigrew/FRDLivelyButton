@@ -23,6 +23,14 @@ typedef enum {
     kFRDLivelyButtonStyleArrowRight
 } kFRDLivelyButtonStyle;
 
+extern NSString *const kFRDLivelyButtonHighlightScale;
+extern NSString *const kFRDLivelyButtonLineWidth;
+extern NSString *const kFRDLivelyButtonColor;
+extern NSString *const kFRDLivelyButtonHighlightedColor;
+extern NSString *const kFRDLivelyButtonHighlightAnimationDuration;
+extern NSString *const kFRDLivelyButtonUnHighlightAnimationDuration;
+extern NSString *const kFRDLivelyButtonStyleChangeAnimationDuration;
+
 @interface FRDLivelyButton : UIButton
 
 -(kFRDLivelyButtonStyle) buttonStyle;
